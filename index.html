@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--icon-->
+    <link rel="shortcut icon" href="img/img4.jpg" type="image/x-icon">
+    <title>Travel Website</title>
+    <!--bootstrap link css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<!--bootstrap link js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!--cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<!--google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lavishly+Yours&family=Libre+Caslon+Display&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!--google fonts-->
+</head>
+<!--navbar start-->
+<nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<!--navbar end-->
+<!--home start-->
+<body>
+<div class="home">
+    <div class="content">
+        <h5>Welecome To World</h5>
+        <h1>visit <span class="changecontent"></span></h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, impedit voluptas! Odio, necessitatibus deleniti. </p>
+  <a href="#book">Book Place</a>
+    </div>
+</div>
+<!--home end-->
+<!--book start-->
+<section class="book" id="book">
+    <div class="container">
+        <div class="main-text">
+            <h1><span>B</span>ook</h1>
+            <div class="row">
+                <div class="col-md-6 py-3 py-md-0" >
+                    <div class="card">
+                        <img src="img/img7.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6 py-3 py-md-0" >
+                    <form action="#">
+                        <input type="text" class="form-control" placeholder="Where To"required><br>
+                        <input type="text" class="form-control" placeholder="How Many"required><br>
+                        <input type="date" class="form-control" placeholder="Arrivals"required><br>
+                        <input type="date" class="form-control" placeholder="Leaving"required><br>
+                        <textarea class="form-control" rows="5" name="text" placeholder="Enter your name and Details"></textarea>
+                    <input type="submit" value="Book Now" class="submit" required>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!--book end-->
+<!--packages start -->
+<section class="package" id="packages">
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>P</span>ckages</h1>
+        </div>
+        <div class="row" style="margin-top:30px";>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="img/unitedkingdom.jpg"  id="italy">
+                    <div class="card-body">
+                        <h3>United Kingdom</h3>
+                        <p>The United Kingdom, made up of England, Scotland, Wales, and Northern Ireland, is a destination rich in history, culture, and diverse landscapes. Located in the northwest of Europe, it is known for its influence on politics, economy, and the arts worldwide.</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star "></i>
+                        </div>
+                        <h6>price:<strong>500£</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_667548661v2-768x512.jpg"  id="italy">
+                    <div class="card-body">
+                        <h3>Paris</h3>
+                        <p>Paris, the capital of France, is an iconic city known for its timeless charm, art, fashion, and gastronomy. Often referred to as 'The City of Light,' Paris attracts millions of visitors every year thanks to its historic landmarks, famous museums, and romantic atmosphere</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h6>price:<strong>200£</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card">
+                    <img src="https://t4.ftcdn.net/jpg/00/69/17/35/240_F_69173554_QStvbMrJGkGsxsC8eiHvFkBRtoR7HoGX.jpg"  id="italy">
+                    <div class="card-body">
+                        <h3>China</h3>
+                        <p>China, the most populous country in the world, is a unique destination that blends ancient traditions and modernity. With over 5,000 years of history, it offers a fascinating mix of culture, breathtaking natural landscapes, and iconic historical sites</p>
+                        <div class="star">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                        </div>
+                        <h6>price:<strong>500£</strong></h6>
+                        <a href="#book">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:30px";>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/736x/ba/19/27/ba19270b5ce95937ec4d5d8529b98408.jpg" id="italy">
+                        <div class="card-body">
+                            <h3>Italy</h3>
+                            <p>Italy, the birthplace of the Renaissance and the heart of the Roman Empire, is one of the most sought-after destinations in the world. Famous for its historic cities, diverse landscapes, and gastronomy, Italy offers an incomparable experience</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>price:<strong>500£</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="https://media.istockphoto.com/id/1299735828/photo/travel-photo-of-james-bond-island-with-thai-traditional-wooden-longtail-boat-and-beautiful.jpg?s=612x612&w=0&k=20&c=JIWCcvBSEoQ64IHmr4egkhC5dthQNlpG8lubFwQHmcA=">
+                        <div class="card-body">
+                            <h3>Thailand</h3>
+                            <p>Thailand, located in Southeast Asia, is a fascinating country where pristine beaches, Buddhist temples, and a vibrant culture come together. Known for its spectacular landscapes and hospitality, Thailand is an unmissable travel destination</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>price:<strong>200£</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <div class="card">
+                        <img src="http://t4.ftcdn.net/jpg/02/49/93/63/240_F_249936319_OBWx4YNzwI2e3k3YfePtbrzfkUsrGh1U.jpg" id="italy">
+                        <div class="card-body">
+                            <h3>Turkey</h3>
+                            <p>Turkey, located at the crossroads of Asia and Europe, is a country with diverse influences. With its fascinating historical sites, varied landscapes, and unique culture, Turkey is a destination that blends tradition and modernity.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                                <i class="fa-solid fa-star checked"></i>
+                            </div>
+                            <h6>price:<strong>500£</strong></h6>
+                            <a href="#book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:30px";>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="https://static.vecteezy.com/system/resources/thumbnails/004/881/304/small_2x/south-male-atoll-maldives-2019-aerial-island-view-water-villas-free-photo.jpg"  id="italy">
+                            <div class="card-body">
+                                <h3>Maldives</h3>
+                                <p>The Maldives, an archipelago located in the Indian Ocean, is a true paradise on Earth. Composed of over 1,000 islands, this country is renowned for its white sandy beaches, crystal-clear waters, and exceptional marine life</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h6>price:<strong>500£</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="https://www.vanilla-islands.org/wp-content/uploads/2018/10/comores-plage-bateau-accueil-1024x1024.webp"  id="italy">
+                            <div class="card-body">
+                                <h3>Comoros</h3>
+                                <p>The Comoros, an idyllic archipelago in the heart of the Indian Ocean, is a hidden treasure between Madagascar and the African coast. Composed of four main islands, this country combines volcanic landscapes, fine sandy beaches, and a rich cultural diversity.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h6>price:<strong>200£</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card">
+                            <img src="https://mistertravel.news/wp-content/uploads/2024/01/Iles-paradisiaques.jpeg"  id="italy">
+                            <div class="card-body">
+                                <h3>Îles Canaries</h3>
+                                <p>The Canary Islands, a Spanish archipelago located in the Atlantic Ocean, are famous for their subtropical climate, golden beaches, towering volcanoes, and unique cultural heritage. With islands like Tenerife, Lanzarote, Fuerteventura, and Gran Canaria, the Canaries offer a variety of experiences for all types of travelers.</p>
+                                <div class="star">
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                    <i class="fa-solid fa-star checked"></i>
+                                </div>
+                                <h6>price:<strong>500£</strong></h6>
+                                <a href="#book">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+        </div>
+    </div>
+
+</section>
+<!--packages end-->
+<!--services start-->
+<section class="services" id="services">
+    <div class="container">
+        <div class="main-txt"><h1><span>S</span>ervices</h1></div>
+    </div>
+    <div class="row" style="margin-top:30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fas fa-hotel">
+                </i>
+                    <div class="card-body"><h3>Affordable Hotel</h3>
+                    <p>Discover our affordable hotel offering a comfortable stay without exceeding your budget. Ideally located, our establishment guarantees excellent service at a reasonable price.</p></div>
+
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+<i class="fa-solid fa-utensils"></i>
+                </i>
+                    <div class="card-body"><h3>Food And Drinks</h3>
+                    <p>Discover a delicious cuisine that blends tradition and modernity. Whether you are a fan of local dishes or international flavors, our menu will satisfy all your cravings.</p></div>
+
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fas fa-bullhorn">
+                </i>
+                    <div class="card-body"><h3>Safety Guide</h3>
+                    <p>Your safety is our priority. We have implemented strict measures to ensure a safe and comfortable environment throughout your stay.</p></div>
+
+            </div>
+        </div>
+        
+    </div>
+    <div class="row" style="margin-top:30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fas fa-globe-asia">
+                </i>
+                    <div class="card-body"><h3>Around the World</h3>
+                    <p>Embark on a journey to discover the wonders of the world! From Asia to America, through Europe and Africa, explore the cultures, traditions, and must-visit destinations.</p></div>
+
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+<i class="fa-solid fa-plane"></i>
+                </i>
+                    <div class="card-body"><h3>Fastest Travel</h3>
+                    <p>Travel faster than ever before! Thanks to technological innovations, it is now possible to travel the world in record time. Discover the fastest modes of transportation to optimize your travels.</p></div>
+
+            </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <i class="fas fa-hiking">
+                </i>
+                    <div class="card-body"><h3>Adventures</h3>
+                    <p>Get ready to push your limits! Whether you're a thrill-seeker or a born explorer, embark on the most incredible adventures across the globe.</p></div>
+
+            </div>
+        </div>
+        
+    </div>
+</section>
+<!--services end-->
+<!--gallery start-->
+<section class="gallery" id="gallery">
+<div class="container">
+    <div class="main-txt">
+        <h1><span>G</span>allery</h1>
+    </div>
+    <div class="row" style="margin-top:30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://i.natgeofe.com/k/109a4e08-5ebc-48a5-99ab-3fbfc1bbd611/Giza_Egypt_KIDS_0123.jpg?w=1436&h=958">
+            </div>
+          
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="img/turc.jpg">
+            </div>
+          
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+            </div>
+          
+
+        </div>
+    </div>
+    <div class="row" style="margin-top:30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/china_shanghai_yuyuan-garden-city.jpg" id="imgg">
+            </div>
+          
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://static5.depositphotos.com/1030296/395/i/600/depositphotos_3958211-stock-photo-new-york-cityscape-tourism-concept.jpg">
+            </div>
+          
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://thumbs.dreamstime.com/b/sagrada-familia-barcelona-spain-cathedral-83163693.jpg?w=768">
+            </div>
+          
+
+        </div>
+    </div>
+    <div class="row" style="margin-top:30px;">
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://www.state.gov/wp-content/uploads/2023/07/shutterstock_433413835v2-768x512.jpg" >
+            </div>
+          
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://up-magazine.info/wp-content/uploads/2024/02/iles-canaries.jpg" id="imgg">
+            </div>
+          
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+                <img src="https://st4.depositphotos.com/16149430/21107/i/600/depositphotos_211072818-stock-photo-cathedral.jpg">
+            </div>
+          
+
+        </div>
+    </div>
+</div>
+
+</section>
+<!--gallery end-->
+<!--about start-->
+<section class="about" id="about">
+    <div class="container">
+        <div class="main-txt">
+            <h1><span>A</span>bout</h1>
+        </div>
+    </div>
+    <div class="row" style="margin-top:30px";>
+        <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+                <img src="img/about.jpg">
+
+            </div>
+        </div>
+        <div class="col-md-6 py-3 py-md-0">
+          <h3>How travel agency work</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam explicabo vitae necessitatibus? Nostrum veniam error quaerat placeat sunt beatae officia voluptas pariatur reiciendis iure, deserunt, aliquid dignissimos ab hic amet aut quidem rerum in quis? Id nisi earum sint amet cupiditate sunt tempora fugiat, atque dolorum repudiandae ex, corrupti non! Molestias ex minus laudantium distinctio sit debitis modi. Rerum voluptatem, quasi assumenda sunt dolor architecto minus, eum, repellendus eius mollitia sapiente! Ratione saepe ipsa placeat vitae praesentium aspernatur nesciunt consequuntur natus cum aliquam vero illum commodi corporis quod suscipit dignissimos culpa, repudiandae magnam sequi cupiditate nihil ex, unde laborum nam! Dolor, voluptas a repellat harum, eos minus ab sequi quibusdam minima optio commodi quod doloremque veniam dolores perspiciatis architecto quia beatae saepe. </p>
+          <button id="about-btn">Read more</button>
+        </div>
+    </div>
+</section>
+<!--about end-->
+<!--footer start-->
+<footer id="footer">
+    <h1><span>T</span>ravel</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+<div class="social-links">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-youtube"></i>
+</div>
+</footer>
+<!--footer end-->
+<body>
+    
+</body>
+</html>
