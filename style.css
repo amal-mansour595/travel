@@ -67,6 +67,31 @@
     
    
 }
+@media (max-width:500px){
+    .home .content h5{  
+        position: absolute;
+         top: 0px;
+      text-align: center;
+        font-size: 20px;
+     } 
+     .home .content h1{
+        font-size: 20px;
+        padding: 33px 0px;
+     }
+
+     
+     .changecontent::after{
+        font-size:20px ;
+     }
+     .home .content p{
+        position: absolute;
+        padding:54px;
+    font-size: 20px;
+     }
+     .home .content a{
+      margin: 163px -161px;
+     }
+}
 @media (max-width:756px){
     .home .content h5{  
         position: absolute;
